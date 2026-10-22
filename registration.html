@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLCOMP Student Registration Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>COLCOMP Student Registration Form</h1>
+        <p>Please fill in your details below.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Student Information</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <div>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name"
+                               placeholder=“Adeyemo Taiwo Ezekiel"
+                               required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="matric">Matric Number:</label>
+                        <input type="text" id="matric" name="matric_number"
+                               placeholder="20255726"
+                               required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="taiwoadeyemo41@gmail.com"
+                               required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone"
+                               placeholder="07057928589"
+                               required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Academic Details</legend>
+
+                    <div>
+                        <label for="department">Department:</label>
+                        <select id="department" name="department" required>
+                            <option value="">Select your department</option>
+                            <option value="ICT">
+                                Information and Communication Technology
+                            </option>
+                            <option value="Cyber Security">
+                                Cyber Security
+                            </option>
+                            <option value="Data Science">
+                                Data Science
+                            </option>
+                            <option value="Information Technology">
+                                Information Technology
+                            </option>
+                            <option value="Computer Science">
+                                Computer Science
+                            </option>
+                            <option value="Information System">
+                                Information System
+                            </option>
+                            <option value="Software Engineering">
+                                Software Engineering
+                            </option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="programme">Programme:</label>
+                        <select id="programme" name="programme" required>
+                            <option value="">Select your programme</option>
+                            <option value="Full-time Weekdays">
+                                Full-time (Weekdays)
+                            </option>
+                            <option value="Weekends">
+                                Weekend Programme
+                            </option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Submit Registration</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 COLCOMP Student Registration Form</p>
+    </footer>
+
+</body>
+</html>
